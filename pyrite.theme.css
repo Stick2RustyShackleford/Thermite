@@ -1,0 +1,96 @@
+/**
+ * @name Thermite
+ * @author Stick2Lambda (based of Pyrite by Leafyluigi)
+ * @version 0.1.8
+ * @description HL Theme for BetterDiscord
+ * 
+ * 
+ */
+
+
+@import url(https://leafyluigi.github.io/discord-themes/pyrite/build/base.css);
+@import url(https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.css);
+@import url(https://leafyluigi.github.io/discord-themes/pyrite/build/better-discord.css);
+/* @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/horizontal-server-list.css); */
+/* @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/borders.css) */
+/* @import url(https://leafyluigi.github.io/discord-themes/pyrite/build/dribbblish.css); */
+
+
+
+:root {
+  
+  --background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F9%2Fe%2Fb%2F431893.jpg&f=1&nofb=1);
+  --user-modal-image: var(--background-image);
+  --user-popout-image: var(--background-image);
+  
+  --home-icon: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Forig02.deviantart.net%2F07fc%2Ff%2F2014%2F015%2F1%2F3%2Flambda_by_darkusrelling-d72d7g1.png&f=1&nofb=1);
+
+  
+  --background-attachment: fixed;
+  --user-modal-attachment: var(--background-attachment);
+  --user-popout-attachment: var(--background-attachment);
+
+  
+  --primary-color: rgb(9, 27, 190);
+  --secondary-color: #E06100;
+  --hover-color: rgb(89, 25, 126);
+  --tooltip-color: rgb(4, 10, 59);
+  
+  --green-color: #43b581;
+  --yellow-color: #f9a719;
+  --red-color: #ec4144;
+  --link-color: #00aef3;
+  --live-color:  #583594;
+  --offline-color: #737e8c;
+
+  
+  --mention-background: var(--primary-color);
+  --mention-opacity: 0.3;
+
+
+  
+  --code-font: Monaco, Consolas, Courier, monospace;
+  --body-font: Arial;
+
+  
+  --user-modal-width: 900px;
+  --user-modal-height: 600px;
+  
+  
+  --gradient: to bottom right, var(--primary-color);
+
+  
+  --hide-member-list: 1;
+  --hide-active-now: 1;
+
+  
+  --win-min-max-close-button-width: 28px; /* default: 14px, square: 48px */
+
+
+  
+  --channel-tabs-enabled: 0;
+
+
+  
+  --update-notice-0: none;
+}
+
+
+
+.theme-dark,
+.theme-dark :not(.previewContainer-1xQAsw) .theme-light {
+  --card-background: rgba(0,0,0,0.5);
+  --side-shading: rgba(0,0,0,0.5);
+  --middle-shading: rgba(0,0,0,0.3);
+  --header-shading: rgba(0,0,0,0.7);
+}
+
+
+.theme-light,
+.theme-light :not(.previewContainer-1xQAsw) .theme-dark:not(.sidebar-1tnWFu):not(.guilds-2JjMmN):not(.sidebarRegion-1VBisG) {
+  --card-background: rgba(255,255,255,0.05);
+  --side-shading: rgba(255,255,255,0.4);
+  --middle-shading: rgba(255,255,255,0.3);
+  --header-shading: rgba(255,255,255,0.5);
+}
+
